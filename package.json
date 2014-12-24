@@ -1,4 +1,4 @@
-
+{
   "name": "url-to-vsvg",
   "version": "0.1.0",
   "description": "A utilitie to download svg data from a url and parse it into vsvg",
