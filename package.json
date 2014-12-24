@@ -1,0 +1,31 @@
+
+  "name": "url-to-vsvg",
+  "version": "0.1.0",
+  "description": "A utilitie to download svg data from a url and parse it into vsvg",
+  "main": "index.js",
+  "dependencies": {
+    "vsvg": "^1.8.0",
+    "xhr": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^7.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o dist/url-to-vsvg.js",
+    "examples": "browserify examples/index.js -o examples/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcblw/url-to-vsvg"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Jacob Lowe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcblw/url-to-vsvg/issues"
+  },
+  "homepage": "https://github.com/jcblw/url-to-vsvg"
+}
