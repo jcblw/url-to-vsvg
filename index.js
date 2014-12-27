@@ -18,10 +18,6 @@ function handleResp( callback, err, resp ) {
 function parseSVG( callback, str ) {
     var parsed = vsvg.parse( str )
     if ( !parsed ) return callback( new Error( 'Failed to parse response from url' ) )
-    if ( parsed[ 0 ] ) {
-        // this is here because of a bug in the initialization of DOM nodes
-        parsed[ 0 ].innerHTML = parsed[ 0 ].innerHTML
-    }
     callback( null, parsed[ 0 ] ) 
 }
 

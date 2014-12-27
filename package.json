@@ -1,10 +1,10 @@
 {
   "name": "url-to-vsvg",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utilitie to download svg data from a url and parse it into vsvg",
   "main": "index.js",
   "dependencies": {
-    "vsvg": "^1.8.0",
+    "vsvg": "^1.8.1",
     "xhr": "^2.0.0"
   },
   "devDependencies": {
