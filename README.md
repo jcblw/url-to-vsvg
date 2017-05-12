@@ -1,5 +1,7 @@
 # URL to VSVG
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/url-to-vsvg.svg)](https://greenkeeper.io/)
+
 This is a small util to request a svg's content and then parse that content using vsvg. 
 
 ## Install
