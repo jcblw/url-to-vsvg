@@ -8,7 +8,7 @@
     "xhr": "^2.0.0"
   },
   "devDependencies": {
-    "browserify": "^7.0.3"
+    "browserify": "^14.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
